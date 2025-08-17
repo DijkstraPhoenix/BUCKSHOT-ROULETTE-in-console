@@ -293,7 +293,7 @@ void Round_1(void)
     {
         printc("You lost, don't give up !",100,4);
         Sleep(400);
-        printc(Playername,100,6);
+        printc(Playername,150,6);
         Sleep(2000);
         exit(0);
     }
