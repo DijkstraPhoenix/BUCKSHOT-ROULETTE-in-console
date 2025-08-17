@@ -202,12 +202,12 @@ void Dealer_1(void)
     else if(Blank==0)inp=1;
     else if(Live>Blank)
     {
-        if(rand()%10<7)inp=1;
+        if((rand()%10)<7)inp=1;
         else inp=0;
     }
     else
     {
-        if(rand()%10<4)inp=1;
+        if((rand()%10)<4)inp=1;
         else inp=0;
     }
 
